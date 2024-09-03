@@ -1,4 +1,4 @@
-package com.alibou.videocall;
+package com.aditya.videocall;
 
 import com.alibou.videocall.user.User;
 import com.alibou.videocall.user.UserService;
@@ -20,20 +20,20 @@ public class VideocallApplication {
 	) {
 		return args -> {
 			service.register(User.builder()
-							.username("Ali")
+							.username("Adi")
 							.email("ali@mail.com")
 							.password("aaa")
 					.build());
 
 			service.register(User.builder()
-					.username("John")
-					.email("john@mail.com")
+					.username("Jokern")
+					.email("joker@mail.com")
 					.password("aaa")
 					.build());
 
 			service.register(User.builder()
-					.username("Anny")
-					.email("anna@mail.com")
+					.username("Amy")
+					.email("ammy@mail.com")
 					.password("aaa")
 					.build());
 		};
